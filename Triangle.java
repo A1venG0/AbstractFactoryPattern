@@ -5,7 +5,7 @@ public class Triangle
 	protected int sideThreeLength;
 
 	@Override
-	public String toString()
+	public String toString() // doesn't work
 	{
 		return "Triangle with sides: "
 		+ sideOneLength
