@@ -1,12 +1,5 @@
-public abstract class BaseFactory
+public interface BaseFactory
 {
-	public void createTriangle() 
-	{
-
-	}
-
-	public void createCircle() 
-	{
-
-	}
+	public Triangle createTriangle();
+	public Circle createCircle();
 }
