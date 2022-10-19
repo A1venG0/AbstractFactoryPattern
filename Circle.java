@@ -1,15 +1,7 @@
-public class Circle
+public abstract class Circle
 {
-
+	
 	protected int radius;
-
-	@Override
-	public String toString()
-	{
-		return "Circle with radius :"
-		+ radius 
-		+ '\n'; 
-	}
 
 	public double getArea()
 	{
