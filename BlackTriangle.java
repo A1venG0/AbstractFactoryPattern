@@ -1,11 +1,10 @@
 public class BlackTriangle extends Triangle
 {
-	public BlackTriangle(int firstSide, int secondSide, int thirdSide) // DRY white triangle
+	public BlackTriangle(int firstSide, int secondSide, int thirdSide)
 	{
 		this.sideOneLength = firstSide;
 		this.sideTwoLength = secondSide;
 		this.sideThreeLength = thirdSide;
-		//super(firstSide, secondSide, thirdSide);
 	}
 
 	@Override
