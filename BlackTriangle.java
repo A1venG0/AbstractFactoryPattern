@@ -5,6 +5,7 @@ public class BlackTriangle extends Triangle
 		this.sideOneLength = firstSide;
 		this.sideTwoLength = secondSide;
 		this.sideThreeLength = thirdSide;
+		//super(firstSide, secondSide, thirdSide);
 	}
 
 	@Override

@@ -9,7 +9,7 @@ public class WhiteCircle extends Circle
 	public String toString()
 	{
 		return "White circle with radius: "
-		+ radius
+		+ getRadius()
 		+ '\n';
 	}
 }
