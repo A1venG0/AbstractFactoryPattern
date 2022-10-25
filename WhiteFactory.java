@@ -1,12 +1,12 @@
 public class WhiteFactory implements BaseFactory
 {
 	@Override
-	public Triangle createTriangle() {
-		return new WhiteTriangle(12, 16, 20);
+	public Triangle createTriangle(int firstSide, int secondSide, int thirdSide) {
+		return new WhiteTriangle(firstSide, secondSide, thirdSide);
 	}
 
 	@Override 
-	public Circle createCircle() {
-		return new WhiteCircle(5);
+	public Circle createCircle(int radius) {
+		return new WhiteCircle(radius);
 	}
 }

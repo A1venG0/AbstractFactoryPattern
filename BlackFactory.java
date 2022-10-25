@@ -1,12 +1,12 @@
 public class BlackFactory implements BaseFactory
 {
 	@Override
-	public Triangle createTriangle() {
-		return new BlackTriangle(1, 3, 5); // constructors deprecated?
+	public Triangle createTriangle(int firstSide, int secondSide, int thirdSide) {
+		return new BlackTriangle(firstSide, secondSide, thirdSide);
 	}
 
 	@Override
-	public Circle createCircle() {
-		return new BlackCircle(3); // constructors deprecated?
+	public Circle createCircle(int radius) {
+		return new BlackCircle(radius);
 	}
 }
