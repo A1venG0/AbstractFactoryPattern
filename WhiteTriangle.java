@@ -1,6 +1,6 @@
 public class WhiteTriangle extends Triangle
 {
-	public WhiteTriangle(int firstSide, int secondSide, int thirdSide) // DRY black triangle
+	public WhiteTriangle(int firstSide, int secondSide, int thirdSide)
 	{
 		this.sideOneLength = firstSide;
 		this.sideTwoLength = secondSide;
