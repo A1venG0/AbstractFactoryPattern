@@ -10,7 +10,7 @@ public class BlackCircle extends Circle
 	public String toString()
 	{
 		return "Black circle with radius: "
-		+ radius
+		+ getRadius()
 		+ '\n';
 	}
 }
