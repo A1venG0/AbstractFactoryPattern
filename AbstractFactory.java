@@ -1,7 +1,12 @@
 public class AbstractFactory
 {
-	public BaseFactory getFactory()
+	public BaseFactory getFactory(int factoryId)
 	{
-		return new BaseFactory();
+		if (factoryId == 0) {
+			return new WhiteFactory();
+		}
+		else {
+			return new BlackFactory();
+		}
 	}
 }
