@@ -1,7 +1,7 @@
 public class BlackCircle extends Circle
 {
 
-	public BlackCircle(int radius) // DRY white circle
+	public BlackCircle(int radius)
 	{
 		this.radius = radius;
 	}
