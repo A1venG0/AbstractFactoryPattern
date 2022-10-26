@@ -10,8 +10,8 @@ public class Main
         AbstractFactory absFactory = new AbstractFactory();
         BaseFactory factory = absFactory.getFactory(rand.nextInt(2));
 
-        Triangle tr = factory.createTriangle(12, 16, 20); // creating a tringle using abstract factory
-        Circle c = factory.createCircle(5); // creating a circle using abstract factory
+        Shape tr = factory.createTriangle(12, 16, 20); // creating a tringle using abstract factory
+        Shape c = factory.createCircle(5); // creating a circle using abstract factory
 
         System.out.print(tr.toString());
         System.out.print("Triangle perimeter is: ");
@@ -25,7 +25,5 @@ public class Main
         System.out.println(c.getPerimeter());
         System.out.print("Circle area is: ");
         System.out.println(c.getArea());
-
-
     }
 }
