@@ -1,4 +1,4 @@
-public abstract class Triangle
+public abstract class Triangle implements Shape
 {
 	protected int sideOneLength;
 	protected int sideTwoLength;
@@ -12,11 +12,13 @@ public abstract class Triangle
 		return arr;
 	}
 
-	public int getPerimeter()
+	@Override
+	public double getPerimeter()
 	{
 		return sideOneLength + sideTwoLength + sideThreeLength;
 	}
 
+	@Override
 	public double getArea() 
 	{
 		double p = (sideOneLength + sideTwoLength + sideThreeLength) / 2;  
